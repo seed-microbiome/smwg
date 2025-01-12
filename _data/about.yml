@@ -1,0 +1,38 @@
+# - title: " Seed Germination Cues and Bacterial Responses — Metabolites and Reactive Oxygen Species"
+#   presenter: "Davide Gerna"
+#   url: https://www.kew.org/science/our-science/people/davide-gerna
+#   affiliation: "Kew Science"
+#   biography: "Welcome to the Seed Microbiome Working Group (SMWG),
+
+# We are a group of PhD students and early career researchers working on seed microbiomes and actively communicating via quarterly meetings and Slack!
+# During the meetings, participants have the chance to share their work and get feedback from their colleagues working in the same area of expertise.
+# The meetings are organized by me and Makrina Diakaki (Cc), who program the meetings' agenda and ensure that the group works following these criteria:
+
+# • Members should be currently working on the topic of seed microbiomes in academia
+# • Members should be doing a PhD or having completed a PhD no more than 3 years ago
+# • Members should be willing to become an active member of the group"
+
+baseurl: "https://seed-microbiome.github.io/smwg"
+color-scheme: "#334279" # the scheme can be any HEX code like "#00aa55"
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache
+
+title: "Seed Microbiome Working Group"
+description: "Seminars on seed microbiome research"
+
+information: This seminar series aims to provide a platform for young researchers (PhD student or post-doc level) to give invited talks about their research, intending to have a diverse set of talks & speakers on topics related to seed microbiomes.
+
+registration: "https://forms.gle/T64wNQcWbBGFcG7U6"
+
+details: The presentations are virtual talks (~20 min + 10 min Q&A) given **live over Teams**. To stimulate discussion and allow for the presentation of ongoing work, the talks will not be recorded. # unless the speaker separately requests for it.
+# The schedule is in CET European (Summer) Time, click [here](https://whattime.is/en/time-zone/EET/) for EET (winter time) conversion.
+
+organizers: "[Carolina Lobato](https://github.com/cbclobato) and [Makrina Diakaki]()"

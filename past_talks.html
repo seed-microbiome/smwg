@@ -1,59 +1,8 @@
 ---
 layout: default
+title: Past Talks
+description: List of Past Talks
 ---
-<!-- </header> -->
-<!-- Navbar -->
-<!-- Background image -->
-<!-- <div class="p-5 text-center bg-image" style="
-      background-image: '{{ site.baseurl }}/assets/plates-lab.jpeg';
-      height: 400px;
-    ">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Heading</h1>
-          <h4 class="mb-3">Subheading</h4>
-          <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-<!-- Background image -->
-<!-- </header> -->
-
-<!-- <div class="jumbotron jumbotron-fluid bg-dark banner">
-
-  <div class="jumbotron-background">
-    <img src="{{ site.baseurl }}/assets/plates-lab.jpeg" />
-  </div>
-
-  <div class="container text-white">
-    <div class="page-heading">
-      <h1>{{ site.title }}</h1>
-      <hr class="small">
-      <span class="page-subheading">{{ site.description }}</span>
-    </div>
-  </div>
-</div> -->
-
-<!--
-<img src="{{ site.baseurl }}/assets/Logo_ELLIS.png" class="img-responsive mw-80 float-right" />
--->
-
-<!-- <div class="container-md">
-
-  <div class="row">
-
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-
-      <h2>
-        <a href="./test.html">News</a>
-      </h2>
-
-    </div>
-
-  </div> -->
-
 
 <div class="row">
 
@@ -64,6 +13,37 @@ layout: default
     <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
 
     <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-tertiary">
+      <div class="container-fluid">
+        <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init
+          data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="nav nav-pills nav-fill" id=" pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="./test.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="./test.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="./past_talks.html">Past Talks</a>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="./test.html">Pitches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="./test.html">Blog</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
     <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
       <a class="navbar-brand" href="#"> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -82,25 +62,12 @@ layout: default
       </div>
     </nav>
 
-    
-    <div class="jumbotron information">
-      {{ site.information | markdownify }}
-      <div class="text-center">
-        <a class="btn btn-outline-primary btn-lg register-btn" href="{{ site.registration }}">{% if site.registration
-          %}Join us{% else %}Registration closed{% endif %}</a>
-      </div>
-      {{ site.details | markdownify }}
-      <div id="hosted-by">Seminar organizers {{ site.organizers | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
-    </div>
-
-
 
     <div class="posts-list" id="talk-list">
 
       <!-- List talks -->
 
-      {% for talk in site.data.up-talks %}
+      {% for talk in site.data.past-talks %}
 
       <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
         <h2 class="post-title">{{ talk.title }}</h2>
@@ -148,9 +115,6 @@ layout: default
 
 </div>
 
-
-
-
 <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
 
 <script>
@@ -161,7 +125,7 @@ layout: default
 
     console.log('Current unix time: ' + currentTime);
 
-    $("#talk-list").prepend("<h2>Upcoming Talks</h2>");
+    $("#talk-list").prepend("<h2> </h2>");
 
     // Make sure the talk list is sorted (next talk first)
     $("#talk-list article")
