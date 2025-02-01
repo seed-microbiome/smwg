@@ -3,14 +3,16 @@ layout: default
 title: About
 description: Group criteria
 ---
+
 <div class="row">
 
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
-        <!-- Information -->
+        <!-- Bander -->
 
         <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
 
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
             <a class="navbar-brand" href="#"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -23,19 +25,107 @@ description: Group criteria
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="./about.html">About</a>
                     <a class="nav-item nav-link" href="./past_talks.html">Past Talks</a>
-                    <a class="nav-item nav-link" href="./past_talks.html">Pitches</a>
+                    <a class="nav-item nav-link" href="./pitches.html">Pitches</a>
                     <a class="nav-item nav-link" href="./past_talks.html">Blog</a>
                     <a class="nav-item nav-link" href="./past_talks.html">News</a>
                 </div>
             </div>
         </nav>
 
+        <br>
+        
+        <div class="posts-list" id="talk-list">
 
-        <div class="container text-white">
-            <div class="page-heading">
-                <h1>{{ site.title }}</h1>
-                <hr class="small">
-                <span class="page-subheading">{{ site.description }}</span>
-            </div>
+            <!-- List About -->
+
+            {% for talk in site.data.about %}
+            <br>
+            <h2 class="post-title">{{ talk.title }}</h2>
+            <br>
+            <p><strong>Goals</strong>
+                {{ talk.goals | markdownify | remove: '
+            <p>' | remove: '</p>' }}</p>
+            <br>
+            <p><strong>Guidelines</strong>
+                {{ talk.guidelines | markdownify | remove: '
+            <p>' | remove: '</p>' }}</p>
         </div>
+        <!-- <div class="row post-bio"> -->
+        <!-- {% if talk.biography %}
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center">
+                        {% if talk.photo %}
+                        <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg"
+                            class="img-responsive img-circle avatar" alt="">
+                        {% else %}
+                        <div class="avatar" style="background: #ddd;">
+                            <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
+                        </div>
+                        {% endif %} -->
     </div>
+    <div class="col-12 col-sm-8 col-md-9 col-lg-10 col-xl-10 text-muted">
+        <p><strong>About the presenter:</strong>
+            {{ talk.biography | markdownify | remove: '
+        <p>' | remove: '</p>' }}</p>
+    </div>
+    {% endif %}
+</div>
+</article>
+
+{% endfor %}
+
+</div>
+
+<!-- <div class="posts-list" id="past-talks"> -->
+<br>
+<br>
+
+
+<div class="posts-list" id="talk-list">
+
+    <!-- List Organizers -->
+
+    {% for talk in site.data.organizers %}
+
+    <!-- <p><strong>Organizers</strong> -->
+    <h2 class="post-title">{{ talk.title }}</h2>
+    <br>
+    {% if talk.presenter %}
+    <h3 class="post-subtitle"><a href="{{talk.url}}" target="_blank">{{ talk.presenter }}</a> ({{
+        talk.affiliation
+        }})</h3>
+    {% endif %}
+    <div class="row post-bio">
+        {% if talk.biography %}
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center">
+            {% if talk.photo %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg" class="img-responsive img-circle avatar"
+                alt="">
+            {% else %}
+            <div class="avatar" style="background: #ddd;">
+                <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
+            </div>
+            {% endif %}
+        </div>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 col-xl-10 text-muted">
+            <p><strong></strong>
+                {{ talk.biography | markdownify | remove: '
+            <p>' | remove: '</p>' }}</p>
+        </div>
+        {% endif %}
+    </div>
+    </article>
+
+    {% endfor %}
+
+    <br>
+    <br>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

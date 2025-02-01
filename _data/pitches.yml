@@ -1,0 +1,35 @@
+- date: December 5, 2024 at 3 pm CET
+  title: "DAtest - Comparison of different differential abundance methods"
+  presenter: "Nina Bziuk"
+  url: https://github.com/musterman
+  affiliation: "KU Leuven"
+  # abstract: "blabla. For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx)."
+  # photo: "nina-bziuk"
+  # biography: "Nina"
+
+- date: September 12, 2024 at 3 pm CET
+  title: "The use of ANCOM-BC2 for amplicon sequencing data analysis"
+  presenter: "Makrina Diakaki"
+  url: https://www.wur.nl/en/persons/makrina-diakaki.htm
+  affiliation: "Wageningen University & Research"
+  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  # photo: "makrina-diakaki"
+  # biography: "Makrina"
+
+- date: March 2, 2023 at 3 pm CET
+  title: "Discussion on amplicon data visualisation with R’s metacoder package"
+  presenter: "Makrina Diakaki"
+  url: https://www.wur.nl/en/persons/makrina-diakaki.htm
+  affiliation: "Wageningen University & Research"
+  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  # photo: "makrina-diakaki"
+  # biography: "Makrina"
+
+- date: December 1, 2022 at 3 pm CET
+  title: "What are seed microbes doing? Transitioning from inventories of taxa to contribution during seed germination"
+  presenter: "Frederik Bak"
+  url: https://plen.ku.dk/english/employees/?pure=en/persons/331508
+  affiliation: "University of Copenhagen"
+  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  # photo: "frederik-bak"
+  # biography: "Frederik"
