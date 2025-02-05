@@ -1,6 +1,6 @@
-# Web pages for the 'Seed Microbiome Working Group'
+# Web page for the 'Seed Microbiome Working Group'
 
-This web page uses Jekyll through GitHub pages which renders static HTML pages that are accessible at [https://seed-microbiome.github.io/smwg/](https://seed-microbiome.github.io/smwg/). The layout should auto-support various screen sizes etc. through bootstrap.
+This web page uses Jekyll through GitHub pages which renders static HTML pages that are accessible at [https://seed-microbiome.github.io/smwg/](https://seed-microbiome.github.io/smwg/).
 
 To install Jekyll locally, follow: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/).
 
