@@ -26,14 +26,14 @@ description: Group criteria
                     <a class="nav-item nav-link" href="./about.html">About</a>
                     <a class="nav-item nav-link" href="./past_talks.html">Past Talks</a>
                     <a class="nav-item nav-link" href="./pitches.html">Pitches</a>
-                    <a class="nav-item nav-link" href="./past_talks.html">Blog</a>
-                    <a class="nav-item nav-link" href="./past_talks.html">News</a>
+                    <!-- <a class="nav-item nav-link" href="./blog.html">Blog</a> -->
+                    <a class="nav-item nav-link" href="./news.html">News</a>
                 </div>
             </div>
         </nav>
 
         <br>
-        
+
         <div class="posts-list" id="talk-list">
 
             <!-- List About -->
@@ -118,7 +118,30 @@ description: Group criteria
     {% endfor %}
 
     <br>
-    <br>
+
+    <div class="posts-list" id="talk-list">
+
+        <!-- List Members -->
+
+        {% for talk in site.data.members %}
+        <br>
+                <h2 class="post-title">{{ talk.title }}</h2>
+                <br>
+        <p><strong>Current Members</strong>
+            {{ talk.current | markdownify | remove: '
+        <p>' | remove: '</p>' }}</p>
+        <br>
+        <p><strong>Former Members</strong>
+            {{ talk.former | markdownify | remove: '
+        <p>' | remove: '</p>' }}</p>
+    </div>
+</div>
+</article>
+
+{% endfor %}
+
+<br>
+<br>
 
 </div>
 
