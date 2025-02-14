@@ -1,0 +1,67 @@
+---
+layout: default
+title: News
+description: Group criteria
+---
+
+<div class="row">
+
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+
+        <!-- Bander -->
+
+        <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
+            <a class="navbar-brand" href="#"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="./index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./about.html">About</a>
+                    <a class="nav-item nav-link" href="./past_talks.html">Past Talks</a>
+                    <a class="nav-item nav-link" href="./pitches.html">Pitches</a>
+                    <!-- <a class="nav-item nav-link" href="./blog.html">Blog</a> -->
+                    <a class="nav-item nav-link" href="./news.html">News</a>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <br>
+        <h1 class="pageTitle">News</h1>
+        <div id="articles">
+            <br>
+            <ul class="posts noList">
+                {% for post in site.posts %}
+                <li>
+                    <span class="date">{{ post.date | date_to_string }}</span>
+                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <!-- <img src="{{ site.baseurl }}/assets/posts/kickoff.jpeg" class="img-thumbnail" alt="..."> -->
+                    <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines |
+                        truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{%
+                        endif %}
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <br>
+        <br>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
