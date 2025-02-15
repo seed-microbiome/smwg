@@ -2,88 +2,33 @@
 layout: default
 title: Home
 ---
-<!-- </header> -->
-<!-- Navbar -->
-<!-- Background image -->
-<!-- <div class="p-5 text-center bg-image" style="
-      background-image: '{{ site.baseurl }}/assets/plates-lab.jpeg';
-      height: 400px;
-    ">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Heading</h1>
-          <h4 class="mb-3">Subheading</h4>
-          <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-<!-- Background image -->
-<!-- </header> -->
-
-<!-- <div class="jumbotron jumbotron-fluid bg-dark banner">
-
-  <div class="jumbotron-background">
-    <img src="{{ site.baseurl }}/assets/plates-lab.jpeg" />
-  </div>
-
-  <div class="container text-white">
-    <div class="page-heading">
-      <h1>{{ site.title }}</h1>
-      <hr class="small">
-      <span class="page-subheading">{{ site.description }}</span>
-    </div>
-  </div>
-</div> -->
-
-<!--
-<img src="{{ site.baseurl }}/assets/Logo_ELLIS.png" class="img-responsive mw-80 float-right" />
--->
-
-<!-- <div class="container-md">
-
-  <div class="row">
-
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-
-      <h2>
-        <a href="./test.html">News</a>
-      </h2>
-
-    </div>
-
-  </div> -->
-
 
 <div class="row">
 
   <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
     <!-- Bander -->
-
     <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
-      <a class="navbar-brand" href="#"> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="./about.html">About</a>
-          <a class="nav-item nav-link" href="./past_talks.html">Past Talks</a>
-          <a class="nav-item nav-link" href="./pitches.html">Pitches</a>
+          <b>
+            <h4><a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </b></h4>
+          <h4><a class="nav-item nav-link" href="./about.html">About</a></h4>
+          <h4><a class="nav-item nav-link" href="./past_talks.html">Past Talks</a></h4>
+          <h4><a class="nav-item nav-link" href="./pitches.html">Pitches</a></h4>
           <!-- <a class="nav-item nav-link" href="./blog.html">Blog</a> -->
-          <a class="nav-item nav-link" href="./news.html">News</a>
+          <h4><a class="nav-item nav-link" href="./news.html">News</a></h4>
         </div>
       </div>
     </nav>
+    <br>
+    <br>
 
-
+    <!-- Jumbotron -->
     <div class="jumbotron information">
       {{ site.information | markdownify }}
       <div class="text-center">
@@ -94,63 +39,58 @@ title: Home
       <div id="hosted-by">Seminar organizers {{ site.organizers | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
     </div>
-
+    <br>
     <br>
 
-    <div class="posts-list" id="talk-list">
+    <!-- List upcoming talks -->
+    <div class="posts-list" id="talk-list"></div>
 
-      <!-- List upcoming talks -->
-
-      {% for talk in site.data.up-talks %}
-
-      <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
-        <h2 class="post-title">{{ talk.title }}</h2>
-        {% if talk.presenter %}
-        <h3 class="post-subtitle"><a href="{{talk.url}}" target="_blank">{{ talk.presenter }}</a> ({{ talk.affiliation
-          }})</h3>
-        {% endif %}
-        <p class="post-meta">{{ talk.date }}</p>
-        <div class="post-entry">
-          <p><strong>Abstract:</strong>
-            {{ talk.abstract | markdownify | remove: '
-          <p>' | remove: '</p>' }}</p>
-        </div>
-        <div class="row post-bio">
-          {% if talk.biography %}
-          <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center">
-            {% if talk.photo %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg" class="img-responsive img-circle avatar"
-              alt="">
-            {% else %}
-            <div class="avatar" style="background: #ddd;">
-              <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
-            </div>
-            {% endif %}
-          </div>
-          <div class="col-12 col-sm-8 col-md-9 col-lg-10 col-xl-10 text-muted">
-            <p><strong>About the presenter:</strong>
-              {{ talk.biography | markdownify | remove: '
-            <p>' | remove: '</p>' }}</p>
+    {% for talk in site.data.up-talks %}
+    <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
+      <h2 class="post-title">{{ talk.title }}</h2>
+      {% if talk.presenter %}
+      <h3 class="post-subtitle"><a href="{{talk.url}}" target="_blank">{{ talk.presenter }}</a> ({{ talk.affiliation
+        }})</h3>
+      {% endif %}
+      <p class="post-meta">{{ talk.date }}</p>
+      <div class="post-entry">
+        <p><strong>Abstract:</strong>
+          {{ talk.abstract | markdownify | remove: '
+        <p>' | remove: '</p>' }}</p>
+      </div>
+      <div class="row post-bio">
+        {% if talk.biography %}
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center">
+          {% if talk.photo %}
+          <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg" class="img-responsive img-circle avatar"
+            alt="">
+          {% else %}
+          <div class="avatar" style="background: #ddd;">
+            <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
           </div>
           {% endif %}
         </div>
-      </article>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 col-xl-10 text-muted">
+          <p><strong>About the presenter:</strong>
+            {{ talk.biography | markdownify | remove: '
+          <p>' | remove: '</p>' }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </article>
 
-      {% endfor %}
+    {% endfor %}
 
-    </div>
+  </div>
 
-    <div class="posts-list" id="past-talks">
-    </div>
+  <div class="posts-list" id="past-talks">
 
   </div>
 
 </div>
 
 </div>
-
-
-
+</div>
 
 <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
 
@@ -162,7 +102,7 @@ title: Home
 
     console.log('Current unix time: ' + currentTime);
 
-    $("#talk-list").prepend("<h2>Upcoming Talks</h2>");
+    $("#talk-list").prepend("<h2><b>Upcoming Talks</h2></b>");
 
     // Make sure the talk list is sorted (next talk first)
     $("#talk-list article")

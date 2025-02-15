@@ -9,34 +9,31 @@ description: Group criteria
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
         <!-- Bander -->
-
         <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
-            <a class="navbar-brand" href="#"> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="./index.html">Home <span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="./about.html">About</a>
-                    <a class="nav-item nav-link" href="./past_talks.html">Past Talks</a>
-                    <a class="nav-item nav-link" href="./pitches.html">Pitches</a>
+
+                    <h4><a class="nav-item nav-link" href="./index.html">Home </a></h4>
+                    <b>
+                        <h4><a class="nav-item nav-link active" href="./about.html">About <span
+                                    class="sr-only">(current)</span></a>
+                    </b></h4>
+                    <h4><a class="nav-item nav-link" href="./past_talks.html">Past Talks</a></h4>
+                    <h4><a class="nav-item nav-link" href="./pitches.html">Pitches</a></h4>
                     <!-- <a class="nav-item nav-link" href="./blog.html">Blog</a> -->
-                    <a class="nav-item nav-link" href="./news.html">News</a>
+                    <h4><a class="nav-item nav-link" href="./news.html">News</a></h4>
                 </div>
             </div>
         </nav>
-
+        <br>
         <br>
 
-        <div class="posts-list" id="talk-list">
 
-            <!-- List About -->
+        <!-- List About -->
+        <div class="posts-list" id="talk-list">
 
             {% for talk in site.data.about %}
             <br>
@@ -79,11 +76,9 @@ description: Group criteria
 <br>
 <br>
 
-
 <div class="posts-list" id="talk-list">
 
     <!-- List Organizers -->
-
     {% for talk in site.data.organizers %}
 
     <!-- <p><strong>Organizers</strong> -->
@@ -118,15 +113,15 @@ description: Group criteria
     {% endfor %}
 
     <br>
+    <br>
 
     <div class="posts-list" id="talk-list">
 
         <!-- List Members -->
-
         {% for talk in site.data.members %}
         <br>
-                <h2 class="post-title">{{ talk.title }}</h2>
-                <br>
+        <h2 class="post-title">{{ talk.title }}</h2>
+        <br>
         <p><strong>Current Members</strong>
             {{ talk.current | markdownify | remove: '
         <p>' | remove: '</p>' }}</p>
@@ -144,11 +139,5 @@ description: Group criteria
 <br>
 
 </div>
-
 </div>
 
-</div>
-
-</div>
-
-</div>
