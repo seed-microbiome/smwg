@@ -39,11 +39,11 @@ description: Group criteria
             <br>
             <h2 class="post-title">{{ talk.title }}</h2>
             <br>
-            <p><strong>Goals</strong>
-                {{ talk.goals | markdownify | remove: '
+            <p><strong>The Team</strong>
+                {{ talk.team | markdownify | remove: '
             <p>' | remove: '</p>' }}</p>
             <br>
-            <p><strong>Guidelines</strong>
+            <p><strong>Eligebility Criteria</strong>
                 {{ talk.guidelines | markdownify | remove: '
             <p>' | remove: '</p>' }}</p>
         </div>

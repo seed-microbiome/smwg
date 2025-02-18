@@ -3,7 +3,7 @@
   presenter: "Nina Bziuk"
   url: https://github.com/musterman
   affiliation: "KU Leuven"
-  # abstract: "blabla. For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx)."
+  abstract: "For more info, please see the relevant [publication](https://www.biorxiv.org/content/10.1101/241802v1.abstract)."
   # photo: "nina-bziuk"
   # biography: "Nina"
 
@@ -12,7 +12,7 @@
   presenter: "Makrina Diakaki"
   url: https://www.wur.nl/en/persons/makrina-diakaki.htm
   affiliation: "Wageningen University & Research"
-  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  abstract: "For more info, please see the relevant [tutorial](https://www.bioconductor.org/packages/release/bioc/vignettes/ANCOMBC/inst/doc/ANCOMBC2.html)."
   # photo: "makrina-diakaki"
   # biography: "Makrina"
 
@@ -21,7 +21,7 @@
   presenter: "Makrina Diakaki"
   url: https://www.wur.nl/en/persons/makrina-diakaki.htm
   affiliation: "Wageningen University & Research"
-  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  abstract: "For more info, please see the relevant [publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005404)."
   # photo: "makrina-diakaki"
   # biography: "Makrina"
 
@@ -30,6 +30,6 @@
   presenter: "Frederik Bak"
   url: https://plen.ku.dk/english/employees/?pure=en/persons/331508
   affiliation: "University of Copenhagen"
-  # abstract: "blabla. For more info, please see [paper](https://arxiv.org/abs/xxx.xxxx)."
+  # abstract: "For more info, please see the relevant [publication](https://arxiv.org/abs/xxx.xxxx)."
   # photo: "frederik-bak"
   # biography: "Frederik"

@@ -43,6 +43,10 @@ description: List of Pitches
         {% endif %}
         <p class="post-meta">{{ talk.date }}</p>
         <div class="post-entry">
+          <p><strong></strong>
+            {{ talk.abstract | markdownify | remove: '
+          <p>' | remove: '</p>' }}</p>
+        </div>
       </article>
 
       {% endfor %}
