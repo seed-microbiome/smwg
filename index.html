@@ -35,6 +35,7 @@ title: Home
         <a class="btn btn-outline-primary btn-lg register-btn" href="{{ site.registration }}">{% if site.registration
           %}Join us{% else %}Registration closed{% endif %}</a>
       </div>
+      <br>
       {{ site.details | markdownify }}
       <div id="hosted-by">Seminar organizers {{ site.organizers | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
