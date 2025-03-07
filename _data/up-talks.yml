@@ -1,17 +1,16 @@
-- date: March 6, 2025 at 3 pm CET
-  title: "Seed Germination Cues and Bacterial Responses — Metabolites and Reactive Oxygen Species"
-  presenter: "Davide Gerna"
-  url: https://www.kew.org/science/our-science/people/davide-gerna
-  affiliation: "Kew Science"
-  abstract: Not available # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx)."
-  photo: "davide-gerna"
-  biography: "Davide is a Post-doc in Kew Science in the UK, and is interested in seed redox biology with emphasis on antioxidants in longevity and germination. He is particularly interested in seed metabolic resumption during germination and ageing, and seed-microbe interactions alongside storage, germination, and early seedling growth."
-
-- date: March 6, 2025 at 3 pm CET
-  title: "Seed Microbiomes as Drivers of Stress Resilience — Unveiling Their Roles in Nutrient Deficiency and Climate Adaptation"
-  presenter: "Itumeleng Moroenyane"
-  url: https://www.plantholobiont.com/team
-  affiliation: "Stellenbosch University"
-  abstract: "Not available" # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
-  photo: "itumeleng-moroenyane"
-  biography: "Itumeleng is a plant scientist and PI of the Plant Holobiont Lab at Stellenbosch University, his work focuses on understanding which assembly processes are delimiting the plant holobionts, as well as the evolutionary history of niche shifts and stability. He is particularly interested in understanding how plant holobionts are assembled and maintained, and the hologenome theory of evolution."
+- date: June 5, 2025 at 3 pm CET
+  title: "Spinach seed microbiota and the suppression of Globisporangium ultimum damping-off"
+  presenter: "Makrina Diakaki"
+  url: https://www.wur.nl/en/persons/makrina-diakaki.htm
+  affiliation: "Wageningen University & Research"
+  abstract: Recently we demonstrated that the seed microbiome of certain spinach (Spinacia oleracea) seed lots can confer disease suppression against Globisporangium ultimum damping-off (previously known as Pythium ultimum). We hypothesized that differences in the microbial community composition of spinach seed lots correlate with the levels of damping-off suppressiveness of each seed lot. Here, we show that a large proportion of variance in seed-associated bacterial (16S) and fungal (Internal Transcribed Spacer 1) amplicon sequences was explained by seed lot identity, while 9.8 % of bacterial and 7.1 % of fungal community variance correlated with disease suppression. More specifically, a higher relative abundance of basidiomycetous dimorphic yeasts such as Vishniacozyma, Filobasidium, and Papiliotrema and of the bacterial genus Massilia was a key feature of suppressive seed microbiomes. We suggest that the abundance of these genera is indicative of seed lot suppressive potential. Seed processing and treatment can become more targeted with indicator taxa being used to evaluate the presence of beneficial seed-associated microbial functions. This process, in turn, could contribute to the sustainable management of seedling diseases. Finally, this study highlights the ubiquity of yeasts in spinach seed microbiota and their potential beneficial roles for seed health. For more info, please see our recent [paper](https://academic.oup.com/femsec/article/101/2/fiaf004/7945797#504265490)."
+  photo: "makrina-diakaki"
+  biography: "Makrina started her PhD in July 2020 studying the role of the seed microbiome in seed health and seed resilience against pathogens. She is a Plant Biologist with a specialization in sustainable cropping systems. She has a BSc Hons in Biological Sciences (Plant Science) from the University of Edinburgh (UK) a Plant Health Erasmus Mundus Joint Master Degree from the University of Goettingen (Germany) and the Polytechnic University of Valencia (Spain). Her PhD she also completed a one year traineeship at the European Food Safety Authority (Italy) as part of the Pest Surveillance Working Group of the Plant Health team. Her academic interests include the seed microbiome, phytopathology, disease suppression, microbial ecology and sustainable approaches in agriculture, especially in relation to plant health."
+# - date: March 6, 2025 at 3 pm CET
+#   title: "Seed Microbiomes as Drivers of Stress Resilience — Unveiling Their Roles in Nutrient Deficiency and Climate Adaptation"
+#   presenter: "Itumeleng Moroenyane"
+#   url: https://www.plantholobiont.com/team
+#   affiliation: "Stellenbosch University"
+#   abstract: "Not available" # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
+#   photo: "itumeleng-moroenyane"
+#   biography: "Itumeleng is a plant scientist and PI of the Plant Holobiont Lab at Stellenbosch University, his work focuses on understanding which assembly processes are delimiting the plant holobionts, as well as the evolutionary history of niche shifts and stability. He is particularly interested in understanding how plant holobionts are assembled and maintained, and the hologenome theory of evolution."
