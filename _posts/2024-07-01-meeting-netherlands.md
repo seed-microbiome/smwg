@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SMWG encounter
+title: SMWG Encounter
 categories:
   - General
 feature_image: "https://picsum.photos/2560/600?image=872"
