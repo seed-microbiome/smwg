@@ -1,11 +1,11 @@
 - date: September 18, 2025 at 4 pm CET
-  title: TBD
+  title: Bacterial arrival order during pollination affects pathogen transmission to seeds, as well as microbial recruitment during seedling emergence
   presenter: "Gillian Bergmann"
   url: https://gebergmann.weebly.com/
   affiliation: "University of California, Davis"
-  abstract: "Not available" # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
+  abstract: "Biological control of seed-borne pathogens such as the bacterium <i>Paracidovorax</i> (formerly <i>Acidovorax citrulli</i>) offers a sustainable option for disease management. Questions remain, however, whether bacterial interactions can prevent initial seed infection from flowers, and whether arrival order (i.e. priority effects) impacts interaction outcomes. Here, we used a synthetic community (SynCom) experiment in commercial watermelon (<i>Citrullus lanatus</i>) to test the following questions: 1) does bacterial arrival order on stigmas impact pathogen transmission to seeds, 2) are there effects on seed quality, germination and seedling emergence, and 3) are there effects on microbiota composition in offspring seedlings? Through strain specific qPCR, we found that detection and copy abundance of the pathogen Paracidovorax citrulli was higher when inoculated before or concurrently with the SynCom compared to inoculations after other SynCom strains. Through seed/seedling phenotyping, we found that germination and seedling size were higher when <i>Paraburkholderia phytofirmans</i> was inoculated first during pollination. Finally, through amplicon sequencing of seedling shoots, we found that bacterial and fungal communities differed in diversity and composition between inoculation treatments. This initial data suggests that priority effects can impact floral transmission of bacteria to seeds, and that these effects can be transgenerational. Such findings have implications for the timing of seed inoculation with biocontrol or beneficial bacteria in agriculture." # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
   photo: "gillian-bergmann"
-  biography: "Gillian is an ecology PhD candidate in the labs of Johan Leveau and Rachel Vannette at UC Davis, as well as a visiting graduate researcher with the EmerSys team at INRAE-IRHS. She is particularly interested in how various processes can contribute to microbial transmission between floral stigmas and developing seeds across spatial scales. In the long-term, she aims to study microbial community assembly processes across the seed life cycle, document the microbial diversity of seed communities, and relate assembly outcomes to seedling health. She is an NSF Graduate Research Fellow and a UC Davis Dean's Distinguished Graduate Fellow."
+  biography: "Gillian is an incoming Postdoctoral Researcher of Seed Microbiomes and Bioinformatics at the Leibniz Institute for Agricultural Engineering and Bioeconomy. As an NSF Graduate Research Fellow at the University of California-Davis, she studied the contribution of floral transmission of bacterial community assembly in immature seeds, as well as some processes affecting transmission success. She has expertise in applying synthetic community (SynCom) experiments, field and lab studies, and metacommunity ecology concepts to questions about seed microbiota. Additionally, she is broadly interested in the processes affecting seed microbiota assembly, community dynamics across seed development, and using seed microbes in plant conservation."
 
 - date: September 18, 2025 at 4 pm CET
   title: Comparing plant microbiome assembly from seed and soil in selected sugar beet varieties
@@ -16,11 +16,11 @@
   photo: "adrian-wolfgang"
   biography: "Adrian earned his Bachelor's degree in Biology and his Master's degree in Ecology and Evolutionary Biology from the University of Graz, Austria. During his studies, he focused on biodiversity, with a particular emphasis on insect diversity. His master's thesis examined the impact of root-knot nematodes on the bacterial communities associated with tomato plants in Uganda and explored the potential of bacterial volatile organic compounds to prevent root-knot nematode infestations. Following his master's studies, he was employed at the Austrian Centre of Industrial Biotechnology (ACIB), where he worked on optimizing microbial applications for seed treatment to control fungal pathogens, assessing antibiotic resistance in potential biocontrol agents, and studying the interactions between bacterial and fungal biocontrol agents both <i>in vitro</i> and <i>in planta</i>. He also conducted research on the microbial assembly processes in sugar beet, its dependence on soil microbiomes and the potential of vermicompost for suppressing phytopathogens. During his doctoral studies at the Institute of Environmental Biotechnology (UBT) at Graz University of Technology, his research centered on the interactions between soil, plant, and insect pest microbiomes and their implications for biological pest control. His work focus on biological control mechanisms, entomopathogens, and reciprocal host-insect-microbe adaptations. Since 2023, Adrian has been working as a postdoctoral researcher at UBT."
 
-- date: December 4, 2025 at 4 pm CET
-  title: TBD
-  presenter: "TBD"
-  url:
-  affiliation: 
-  abstract: "Not available" # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
-  photo:
-  biography: "Not available"
+#- date: December 4, 2025 at 4 pm CET
+#  title: TBD
+#  presenter: "TBD"
+#  url:
+#  affiliation: 
+#  abstract: "Not available" # For more info, please see our recent [paper](https://arxiv.org/abs/xxx.xxxx).
+#  photo:
+#  biography: "Not available"
