@@ -24,7 +24,7 @@ description: List of Past Talks
           <h4><a class="nav-item nav-link active" href="./past_talks.html">Past Talks</a>
           <h4><a class="nav-item nav-link" href="./pitches.html">Pitches</a></h4>
                     <b>
-          <h4><a class="nav-item nav-link" href="./spotlight.html">Researcher Spotlight<span
+          <h4><a class="nav-item nav-link" href="./spotlight.html">Spotlight<span
                   class="sr-only">(current)</span></a>
           </b></h4>
           <h4><a class="nav-item nav-link" href="./news.html">News</a></h4>
@@ -37,7 +37,7 @@ description: List of Past Talks
     <!-- List talks -->
     <div class="posts-list" id="talk-list"></div>
 
-    {% for talk in site.data.past-talks %}
+    {% for talk in site.data.spotlight-talks %}
 
     <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
       <h2 class="post-title">{{ talk.title }}</h2>
