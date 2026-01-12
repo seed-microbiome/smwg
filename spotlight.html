@@ -1,0 +1,120 @@
+---
+layout: default
+title: Past Talks
+description: List of Past Talks
+---
+
+<div class="row">
+
+  <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+
+    <!-- Bander -->
+    <img src="{{ site.baseurl }}/assets/logo.svg" style="width:100%" />
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-outline-primary bg-body-primary">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Menu</span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <h4><a class="nav-item nav-link" href="./index.html">Home</a></h4>
+          <h4><a class="nav-item nav-link" href="./about.html">About</a></h4>
+          <h4><a class="nav-item nav-link active" href="./past_talks.html">Past Talks</a>
+          <h4><a class="nav-item nav-link" href="./pitches.html">Pitches</a></h4>
+                    <b>
+          <h4><a class="nav-item nav-link" href="./spotlight.html">Researcher Spotlight<span
+                  class="sr-only">(current)</span></a>
+          </b></h4>
+          <h4><a class="nav-item nav-link" href="./news.html">News</a></h4>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- List talks -->
+    <div class="posts-list" id="talk-list"></div>
+
+    {% for talk in site.data.past-talks %}
+
+    <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
+      <h2 class="post-title">{{ talk.title }}</h2>
+      {% if talk.presenter %}
+      <h3 class="post-subtitle"><a href="{{talk.url}}" target="_blank">{{ talk.presenter }}</a> ({{ talk.affiliation
+        }})</h3>
+      {% endif %}
+      <p class="post-meta">{{ talk.date }}</p>
+      <div class="post-entry">
+        <p><strong>Abstract:</strong>
+          {{ talk.abstract | markdownify | remove: '
+        <p>' | remove: '</p>' }}</p>
+      </div>
+      <div class="row post-bio">
+        {% if talk.biography %}
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center">
+          {% if talk.photo %}
+          <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg" class="img-responsive img-circle avatar"
+            alt="">
+          {% else %}
+          <div class="avatar" style="background: #ddd;">
+            <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
+          </div>
+          {% endif %}
+        </div>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 col-xl-10 text-muted">
+          <p><strong>About the presenter:</strong>
+            {{ talk.biography | markdownify | remove: '
+          <p>' | remove: '</p>' }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </article>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="posts-list" id="past-talks">
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+
+    // Move talk to Past talks one hour after the scheduled time
+    var currentTime = Math.floor(Date.now() / 1000) + 2 * 3600;
+
+    console.log('Current unix time: ' + currentTime);
+
+    $("#talk-list").prepend("<h2> </h2>");
+
+    // Make sure the talk list is sorted (next talk first)
+    $("#talk-list article")
+      .sort((a, b) => $(a).attr("datetime") - $(b).attr("datetime"))
+      .appendTo("#talk-talks");
+
+    // Add label if there are past talks
+    // if (parseInt($("#talk-list article").first().attr("datetime")) < currentTime) {
+    //   $("#past-talks").prepend("<br /><hr><br /><h2>Past Talks</h2>");
+    // }
+
+    // Move past talks to Past Talks list
+    $("#talk-list article").filter(function () {
+      return parseInt($(this).attr("datetime")) < currentTime;
+    }).appendTo("#past-talks");
+
+    // Sort past talks by reverse time (most recent first)
+    $("#past-talks article")
+      .sort((a, b) => $(b).attr("datetime") - $(a).attr("datetime"))
+      .appendTo("#past-talks");
+
+  });
+</script>

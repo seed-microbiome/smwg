@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New SMWG Organising Team
+title: New SMWG Organizing Team
 categories:
   - General
 ---
