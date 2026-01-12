@@ -1,11 +1,11 @@
-- date: December 4, 2025 at 4 pm CET
-  title: Building a Field Around Microbial Inheritance
-  presenter: "<b><i>Researcher Spotlight</i></b> — Ahmed Abdelfattah"
-  url: https://www.atb-potsdam.de/de/ueber-uns/team/mitarbeiter/person/ahmed-abdelfattah
-  affiliation: "Leibniz Institute for Agricultural Engineering and Bioeconomy"
-  abstract: "*Researcher Spotlight* is a seminar series highlighting the career paths, experiences, and insights of scientists working in the field of seed microbiomes. Each session features a researcher sharing their journey, challenges, and perspectives on building a career in microbial ecology, providing inspiration and guidance for early-career scientists and peers alike."
-  photo: "ahmed-abdelfattah"
-  biography: "Ahmed Abdelfattah is a microbiologist focused on microbial inheritance in plants, particularly seed-associated microbiomes. He leads the Microbiome Management group at the Leibniz Institute for Agricultural Engineering and Bioeconomy (ATB), where his work combines experimental systems, multi-omics, and evolutionary perspectives to understand how microbes move from one plant generation to the next. He is the founder and Chair of [<b>SeedCon</b>](https://seedcon.org/), the first international conference dedicated to seed microbiome research, and has published widely on plant–microbe interactions, fruit and seed microbiomes, and microbiome-driven plant resilience."
+# - date: December 4, 2025 at 4 pm CET
+#   title: Building a Field Around Microbial Inheritance
+#   presenter: "<b><i>Researcher Spotlight</i></b> — Ahmed Abdelfattah"
+#   url: https://www.atb-potsdam.de/de/ueber-uns/team/mitarbeiter/person/ahmed-abdelfattah
+#   affiliation: "Leibniz Institute for Agricultural Engineering and Bioeconomy"
+#   abstract: "*Researcher Spotlight* is a seminar series highlighting the career paths, experiences, and insights of scientists working in the field of seed microbiomes. Each session features a researcher sharing their journey, challenges, and perspectives on building a career in microbial ecology, providing inspiration and guidance for early-career scientists and peers alike."
+#   photo: "ahmed-abdelfattah"
+#   biography: "Ahmed Abdelfattah is a microbiologist focused on microbial inheritance in plants, particularly seed-associated microbiomes. He leads the Microbiome Management group at the Leibniz Institute for Agricultural Engineering and Bioeconomy (ATB), where his work combines experimental systems, multi-omics, and evolutionary perspectives to understand how microbes move from one plant generation to the next. He is the founder and Chair of [<b>SeedCon</b>](https://seedcon.org/), the first international conference dedicated to seed microbiome research, and has published widely on plant–microbe interactions, fruit and seed microbiomes, and microbiome-driven plant resilience."
 
 - date: March 5, 2026 at 4 pm CET
   title: Functional roles of seed endophytic bacteria in seedling development and biotic stress tolerance in maize
