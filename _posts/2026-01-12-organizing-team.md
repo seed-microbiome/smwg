@@ -17,3 +17,7 @@ To support the continued growth and activities of the SMWG, the group is now coo
 
 <br>
 <br>
+
+<img src="{{ site.baseurl }}/assets/speakers//gillian-bergmann.jpeg" class="rounded mx-auto d-block" width="250" height=auto alt="...">
+<img src="{{ site.baseurl }}/assets/speakers//cristian-corn.jpeg" class="rounded mx-auto d-block" width="250" height=auto alt="...">
+<img src="{{ site.baseurl }}/assets/speakers//carolina-cannabis.jpg" class="img-thumbnail" width="250" height=auto alt="...">
