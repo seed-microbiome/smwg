@@ -16,10 +16,12 @@ categories:
 
 <br>
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-<img src="{{ site.baseurl }}/assets/posts/gillian-bergmann.jpg" class="rounded" width="200" height=auto alt="...">
-<img src="{{ site.baseurl }}/assets/posts/cristian-corn.jpg" class="rounded" width="200" height=auto alt="...">
-<img src="{{ site.baseurl }}/assets/posts/carolina-cannabis.jpg" class="rounded" width="200" height=auto alt="...">
+<img src="{{ site.baseurl }}/assets/posts/gillian-bergmann.jpg" class="rounded" style="width: 200px; height: 200px; object-fit: cover;" alt="...">
+<img src="{{ site.baseurl }}/assets/posts/cristian-corn.jpg" class="rounded" style="width: 200px; height: 200px; object-fit: cover;" alt="...">
+<img src="{{ site.baseurl }}/assets/posts/carolina-cannabis.jpg" class="rounded" style="width: 200px; height: 200px; object-fit: cover;" alt="...">
 </div>
+<br>
+<br>
 <br>
 <br>
 <br>
