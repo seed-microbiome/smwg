@@ -17,4 +17,4 @@ categories:
 <br>
 <img src="{{ site.baseurl }}/assets/posts/gillian-bergmann.jpg" class="rounded mx-auto d-block" width="250" height=auto alt="...">
 <img src="{{ site.baseurl }}/assets/posts/cristian-corn.jpg" class="rounded mx-auto d-block" width="250" height=auto alt="...">
-<img src="{{ site.baseurl }}/assets/posts/carolina-cannabis.jpg" class="img-thumbnail" width="250" height=auto alt="...">
+<img src="{{ site.baseurl }}/assets/posts/carolina-cannabis.jpg" class="rounded mx-auto d-block" width="250" height=auto alt="...">
