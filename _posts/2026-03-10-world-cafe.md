@@ -25,6 +25,7 @@ categories:
 <p>Join us for this engaging session, where your ideas and experiences will help define the next directions in seed microbiome research!</p> 
 
 <p>Find out more at <strong><a href="https://www.seedcon.org/" target="_blank" rel="noopener">seedcon.org</a></strong></p>
-
+<br>
+<br>
 <br>
 <br>
