@@ -1,0 +1,33 @@
+---
+layout: post
+title: New SMWG Organizing Team
+categories:
+  - General
+---
+<br>
+<br>
+
+<h2>We are excited to announce that the SMWG will host Session 8: Shaping the Research Future at SeedCon! This collaborative session invites participants to actively engage in World Café–style discussions on key topics in seed microbiome research.</h2>
+<br>
+
+<p>Participants will connect with fellow researchers and share perspectives, explore experimental design and research priorities, and contribute to discussions that help shape the future of seed microbiome studies. The workshop will focus on several key topics, each led by an expert in the field:</p> 
+
+<ul> 
+<li><strong>Concepts and mechanisms of microbial survival in seeds</strong> – led by Davide Gerna (Kew Science, UK), exploring how microbes persist and thrive within seeds.</li> 
+
+<li><strong>Mechanisms of plant growth promotion and stress tolerance in seed endophytes</strong> – led by Gaurav Pal (NC State University, US), discussing the ways seed-associated microbes support plant health.</li> 
+
+<li><strong>Ensuring biological meaning in seed microbiome studies</strong> – led by Anastasia Juskovic (AIT, Austria), focusing on designing studies that generate meaningful and reproducible insights.</li> 
+
+<li><strong>Co-evolved host filters shaping microbial diversity</strong> – led by Kristina Michl (FH Technikum Wien, Austria), examining how plant traits influence the composition of seed microbiomes.</li>
+
+<li><strong>Seed Biopriming as a Tool to Shape Plant Microbiomes</strong> – led by Joseph King (Royal Holloway University of London, UK), highlighting strategies to actively shape seed-associated microbial communities.</li> 
+</ul> 
+
+<p>Join us for this engaging session, where your ideas and experiences will help define the next directions in seed microbiome research!</p> 
+
+<p>Find out more at <a href="https://www.seedcon.org/" target="_blank" rel="noopener">seedcon.org</a></p>
+
+Join us for an engaging session where your ideas and experiences will help define the next directions in seed microbiome research!
+<br>
+<br>
