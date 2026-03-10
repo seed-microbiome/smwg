@@ -6,8 +6,8 @@ categories:
 ---
 <br>
 <h4>We are excited to announce that the SMWG will host a session at SeedCon titled <em>Shaping the Research Future</em>! This collaborative session invites participants to actively engage in World Café–style discussions on key topics in seed microbiome research.</h4>
-<br>
 
+<br>
 <p>Participants will connect with fellow researchers and share perspectives, explore experimental design and research priorities, and contribute to discussions that help shape the future of seed microbiome studies. The workshop will focus on several key topics, each led by an expert in the field:</p> 
 
 <ul> 
@@ -26,4 +26,5 @@ categories:
 
 <p>Find out more at <strong><a href="https://www.seedcon.org/" target="_blank" rel="noopener">seedcon.org</a></strong></p>
 
+<br>
 <br>
