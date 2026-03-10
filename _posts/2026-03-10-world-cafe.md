@@ -27,4 +27,3 @@ categories:
 <p>Find out more at <strong><a href="https://www.seedcon.org/" target="_blank" rel="noopener">seedcon.org</a></strong></p>
 
 <br>
-<br>
