@@ -5,7 +5,7 @@ categories:
   - Conferences
 ---
 <br>
-<h4>We are excited to announce that the SMWG will host a session at SeedCon titled <em>Shaping the Research Future</em>! This collaborative session invites participants to actively engage in World Café–style discussions on key topics in seed microbiome research, led by ou group members.</h4>
+<h4>We are excited to announce that the SMWG will host a session at SeedCon titled <em>Shaping the Research Future</em>! This collaborative session invites participants to actively engage in World Café–style discussions on key topics in seed microbiome research, led by our group members.</h4>
 
 <br>
 <p>Participants will connect with fellow researchers and share perspectives, explore experimental design and research priorities, and contribute to discussions that help shape the future of seed microbiome research.</p> 
