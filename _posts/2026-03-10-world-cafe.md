@@ -13,15 +13,15 @@ categories:
 <h4>Session topics:</h4>
 
 <ul> 
-<li><strong>Concepts and mechanisms of microbial survival in seeds</strong> led by Davide Gerna (Kew Science, UK), exploring how microbes persist and thrive within seeds.</li> 
+<li><strong>Mechanisms of microbial persistence in the seed host</strong> led by Davide Gerna (Kew Science, UK), exploring how microbes persist and thrive within seeds.</li> 
 
-<li><strong>Mechanisms of seed endophytic-mediated plant growth and stress tolerance</strong> led by Gaurav Pal (NC State University, US), discussing the ways seed-associated microbes support plant health.</li> 
+<li><strong>Mechanisms for seed endophytic-mediated plant growth and stress tolerance</strong> led by Gaurav Pal (NC State University, US), discussing the ways seed-associated microbes support plant health.</li> 
 
-<li><strong>Best practices for gaining biological meaning from seed microbiome data</strong> led by Anastasia Juskovic (AIT, Austria), focusing on designing studies that generate meaningful and reproducible insights.</li> 
+<li><strong>Best practices to derive biological meaning from seed microbiomes</strong> led by Anastasia Juskovic (AIT, Austria), focusing on designing studies that generate meaningful and reproducible insights.</li> 
 
-<li><strong>Effects of plant-microbe co-evolution in seed microbial diversity</strong> led by Kristina Michl (FH Technikum Wien, Austria), examining how plant traits influence the composition of seed microbiomes.</li>
+<li><strong>Effects of plant-microbe co-evolution on seed microbial diversity</strong> led by Kristina Michl (FH Technikum Wien, Austria), examining how plant traits influence the composition of seed microbiomes.</li>
 
-<li><strong>Seed biopriming as a method to shape seed microbiomes</strong> led by Joseph King (Royal Holloway University of London, UK), highlighting strategies to actively shape seed-associated microbial communities in sustainable agriculture.</li> 
+<li><strong>Biopriming as a method to shape seed microbiomes</strong> led by Joseph King (Royal Holloway University of London, UK), highlighting strategies to actively shape seed-associated microbial communities in sustainable agriculture.</li> 
 </ul> 
 
 <p>Join us for this engaging session, where your ideas and experiences will help define the next directions in seed microbiome research!</p> 
