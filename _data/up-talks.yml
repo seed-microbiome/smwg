@@ -1,8 +1,8 @@
 - date: June 4, 2026 at 4 pm CET
-  title: TBA
-  presenter: "TBA"
-  url: 
-  affiliation: 
-  abstract: "TBA"
-  photo:
-  biography:
+  title: Exploring the role of seed-borne bacteria in wheat rhizosphere microbiome assembly through metabolic modeling
+  presenter: "Emilio García Canalejas"
+  url: https://www.ecoplantmicro.org/
+  affiliation: "Autonomous University of Madrid"
+  abstract: "The establishment of plant-beneficial bacterial inoculants in the rhizosphere remains inconsistent under field conditions, largely due to competition with resident microorganisms. Heritable, seed-borne bacteria arrive first to this niche and likely drive early rhizosphere microbiome assembly through priority effects. However, the metabolic interactions between seed and soil bacteria remain largely unexplored and could greatly impact new strategies for enhancing the establishment of plant-beneficial inoculants. We constructed genome-scale metabolic models for approximately 40 bacterial isolates obtained from wheat seeds, the wheat rhizosphere, and soil, to identify potential competition, niche partitioning, and facilitative metabolic interactions among early- and late-arriving bacteria. We are experimentally validating carbon utilization profiles and constructing different synthetic communities (SynComs) to study how seed-borne bacteria influence community assembly. By manipulating the arrival order of seed bacteria and performing drop-out experiments, we aim to determine whether seed bacteria act as major drivers of wheat rhizosphere microbiome assembly through priority effects. This framework will also allow us to test how plant-beneficial inoculants establish within communities shaped by inherited bacteria, providing ecological principles to improve inoculant integration into the rhizosphere microbiome."
+  photo: "emilio-garcia"
+  biography: "Emilio is a PhD candidate in Daniel Garrido-Sanz’s lab (https://www.ecoplantmicro.org/) at the Autonomous University of Madrid. He is a biotechnologist with an M.Sc. in Microbiology, and his current research focuses on bacterial metabolic interactions driving the assembly of the wheat rhizosphere microbiome. He uses genome-scale metabolic modeling for SynCom reconstruction to test hypotheses about potential priority effects carried out by seed bacteria. Beyond the lab, Emilio is a passionate science communicator on social media, where he makes science accessible, fun, and engaging for Gen Z. Instagram: @genceta__"
